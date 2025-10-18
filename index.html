@@ -3,29 +3,59 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Discord埋め込みテストページ</title>
-
-    <!-- Discord用OGP -->
+    <title>Kamiansatsu Discord</title>
     <meta property="og:title" content="格安Netflix販売中！今すぐ参加！">
     <meta property="og:description" content="Netflixなど格安で販売しています！今すぐ入ろう！">
     <meta property="og:image" content="https://i.imgur.com/CCEAq4X.jpeg">
     <meta property="og:url" content="https://discord.gg/kamiansatsu">
     <meta property="og:type" content="website">
-    <meta name="theme-color" content="#5865F2">
-
-    <!-- 保険用（Twitterなど） -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="格安Netflix販売中！今すぐ参加！">
-    <meta name="twitter:description" content="Netflixなど格安で販売しています！今すぐ入ろう！">
-    <meta name="twitter:image" content="https://i.imgur.com/CCEAq4X.jpeg">
+    <meta name="theme-color" content="#23272A">
+    <style>
+      body {
+        background-color: #111;
+        color: #eee;
+        font-family: 'Yu Gothic', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        text-align: center;
+      }
+      h1 {
+        font-size: 1.6em;
+        margin-bottom: 0.4em;
+      }
+      p {
+        font-size: 0.95em;
+        margin-bottom: 1.2em;
+        color: #aaa;
+      }
+      a {
+        display: inline-block;
+        padding: 10px 24px;
+        background-color: #5865F2;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 6px;
+        font-weight: bold;
+        transition: 0.2s;
+      }
+      a:hover {
+        background-color: #4752C4;
+      }
+      img {
+        width: 200px;
+        border-radius: 10px;
+        margin-bottom: 1.2em;
+      }
+    </style>
   </head>
-
-  <body style="font-family: 'Yu Gothic', sans-serif; margin: 2em; text-align: center;">
-    <h1>Discord埋め込みテスト</h1>
-    <p>このページのURLをDiscordに貼ると、画像付き埋め込みカードが表示されます。</p>
-
-    <img src="https://i.imgur.com/CCEAq4X.jpeg" alt="OGP画像" width="400">
-
-    <p><a href="https://discord.gg/kamiansatsu">Discordサーバーへ移動</a></p>
+  <body>
+    <img src="https://i.imgur.com/CCEAq4X.jpeg" alt="OGP画像">
+    <h1>格安Netflix販売中！</h1>
+    <p>Netflixなど格安で販売しています。今すぐ参加しよう！</p>
+    <a href="https://discord.gg/kamiansatsu" target="_blank">Discordに参加</a>
   </body>
 </html>
